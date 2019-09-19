@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36A9FC12332A2E000A24DF3 /* RoomListViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36A9FC02332A2E000A24DF3 /* RoomListViewController+Extension.swift */; };
 		D3C33EAA2331E10800AA42F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33EA92331E10800AA42F8 /* AppDelegate.swift */; };
 		D3C33EAC2331E10800AA42F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33EAB2331E10800AA42F8 /* ViewController.swift */; };
 		D3C33EAF2331E10800AA42F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C33EAD2331E10800AA42F8 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		D3C33EB72331E10800AA42F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C33EB52331E10800AA42F8 /* LaunchScreen.storyboard */; };
 		D3C33EC22331E10800AA42F8 /* TheActivityV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33EC12331E10800AA42F8 /* TheActivityV1Tests.swift */; };
 		D3C33ECD2331E10800AA42F8 /* TheActivityV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33ECC2331E10800AA42F8 /* TheActivityV1UITests.swift */; };
+		D3C33EDB2331F27400AA42F8 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33EDA2331F27400AA42F8 /* RoomListViewController.swift */; };
+		D3C33EDD23327A6900AA42F8 /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33EDC23327A6900AA42F8 /* RoomViewCell.swift */; };
+		D3C33EDF23327C8200AA42F8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C33EDE23327C8200AA42F8 /* Room.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D36A9FC02332A2E000A24DF3 /* RoomListViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoomListViewController+Extension.swift"; sourceTree = "<group>"; };
 		D3C33EA62331E10800AA42F8 /* TheActivityV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheActivityV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C33EA92331E10800AA42F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C33EAB2331E10800AA42F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		D3C33EC82331E10800AA42F8 /* TheActivityV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheActivityV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C33ECC2331E10800AA42F8 /* TheActivityV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheActivityV1UITests.swift; sourceTree = "<group>"; };
 		D3C33ECE2331E10800AA42F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C33EDA2331F27400AA42F8 /* RoomListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
+		D3C33EDC23327A6900AA42F8 /* RoomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewCell.swift; sourceTree = "<group>"; };
+		D3C33EDE23327C8200AA42F8 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				D3C33EA92331E10800AA42F8 /* AppDelegate.swift */,
-				D3C33EAB2331E10800AA42F8 /* ViewController.swift */,
+				D3C33EDA2331F27400AA42F8 /* RoomListViewController.swift */,
+				D36A9FC02332A2E000A24DF3 /* RoomListViewController+Extension.swift */,
+				D3C33EDC23327A6900AA42F8 /* RoomViewCell.swift */,
+				D3C33EDE23327C8200AA42F8 /* Room.swift */,
 				D3C33EAD2331E10800AA42F8 /* Main.storyboard */,
 				D3C33EB32331E10800AA42F8 /* Assets.xcassets */,
 				D3C33EB52331E10800AA42F8 /* LaunchScreen.storyboard */,
 				D3C33EB82331E10800AA42F8 /* Info.plist */,
 				D3C33EB02331E10800AA42F8 /* TheActivityV1.xcdatamodeld */,
+				D3C33EAB2331E10800AA42F8 /* ViewController.swift */,
 			);
 			path = TheActivityV1;
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36A9FC12332A2E000A24DF3 /* RoomListViewController+Extension.swift in Sources */,
 				D3C33EB22331E10800AA42F8 /* TheActivityV1.xcdatamodeld in Sources */,
 				D3C33EAC2331E10800AA42F8 /* ViewController.swift in Sources */,
+				D3C33EDF23327C8200AA42F8 /* Room.swift in Sources */,
 				D3C33EAA2331E10800AA42F8 /* AppDelegate.swift in Sources */,
+				D3C33EDB2331F27400AA42F8 /* RoomListViewController.swift in Sources */,
+				D3C33EDD23327A6900AA42F8 /* RoomViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
